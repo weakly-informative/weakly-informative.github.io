@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Weakly informative"
 title_separator          : "-"
 name                     : "Diego Mesquita"
-description              : "An amazing website."
+description              : "Don't expect much from this."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -293,6 +293,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
