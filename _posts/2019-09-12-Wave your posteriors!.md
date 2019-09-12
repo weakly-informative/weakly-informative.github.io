@@ -15,8 +15,8 @@ Furthermore, as in common Bayesian meta-analysis, we assume the analyst places a
 Then, the problem of updating our belief about an effect of interest translates to marginalizing the graphical model with respect to all variables but that effect.
 
 <figure>
-<img src="mba_gm.pdf" width="300" height="150" align="middle"> 
-<figcaption> Tree-scructured graphical model with study-specific effects </br> \( \theta_1, \ldots, \theta_J \)  and overall effect \( \varphi \) as nodes.</figcaption>
+<img src="http://weakly-informative.github.io/assets/img/mba_gm.pdf" width="300" height="150" align="middle"> 
+<figcaption> Tree-scructured graphical model with study-specific effects \( \theta_1, \ldots, \theta_J \)  and overall effect \( \varphi \) as nodes.</figcaption>
 </figure>
 
 
