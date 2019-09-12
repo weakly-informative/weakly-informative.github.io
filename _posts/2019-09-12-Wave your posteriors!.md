@@ -14,6 +14,13 @@ We assume the local effects are exchangeable given the overall effect.
 Furthermore, as in common Bayesian meta-analysis, we assume the analyst places a prior over the overall efect and defines the conditional for the local effects given the overall effect. Putting these elements together, we are left with a tree-structured undirected graphical model. 
 Then, the problem of updating our belief about an effect of interest translates to marginalizing the graphical model with respect to all variables but that effect.
 
+<figure>
+<img src="../_figures/mba_gm.pdf" width="300" height="150" align="middle"> 
+<figcaption> Tree-scructured graphical model with study-specific effects </br> $$ \theta_1, \ldots, \theta_J $$  and overall effect $$ \varphi $$ as nodes.</figcaption>
+</figure>
+
+
+
 Our approach can be **especially useful** when the relationship between study-specific data and the local effects is difficult to specify as a likelihood function, which poses  a challenge to the application of traditional fixed/random effects meta-analysis. This is the case, for example, when the effects of interest are **parameters of a simulator-based model** ([disease outbreak dynamics](https://wellcomeopenresearch.org/articles/4-14), [thermal fluid-flow models](https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.3.104602), etc.)
 
 Additionally, this rather simple approach to meta-analysis still retains some of the **core properties** of classical Bayesian inference:
