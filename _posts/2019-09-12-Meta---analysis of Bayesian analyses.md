@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Meta-analysis of Bayesian analyses"
+---
+
 ## Wave your posteriors! 
 
 Meta-analysis comprehends a bag of tools which is heavily employed in generalization studies -- in the social and medical sciences, for example --, where the main goal is to synthetize the result of several smiliar scientific studies conduced under different conditions.
