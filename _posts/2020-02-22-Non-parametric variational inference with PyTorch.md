@@ -7,10 +7,14 @@ With these tools, we could do the same with much more ease simply using the repa
 
 I've prepared a small excerpt  showing what this could look like, with an application on hierarchical logistic regression (model below).
 
-\begin{align}
-    y_n | x_n & \sim \text{Bernoulli}(\sigma( w \cdot x_n )) \quad \forall n \in \{1, \ldots, N\}\\
+\begin{equation}
+    y_n | x_n \sim \text{Bernoulli}(\sigma( w \cdot x_n )) \quad \forall n \in \{1, \ldots, N\}
+\end{equation}
+\begin{equation}
     w_d & \sim \mathcal{N}(0, \alpha_d)  \quad \forall d \in \{1, \ldots, D\}\\
+\end{equation}
+\begin{equation}
     \alpha_d & \sim \text{Gamma}(1, 0.01) \quad  \forall d \in \{1, \ldots, D\} 
-\end{align}
+\end{equation}
 
 Check out the [github repo](https://github.com/weakly-informative/NPVI) .
