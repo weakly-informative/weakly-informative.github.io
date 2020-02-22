@@ -10,9 +10,11 @@ I've prepared a small excerpt  showing what this could look like, with an applic
 \begin{equation}
     y_n | x_n \sim \text{Bernoulli}(\sigma( w \cdot x_n )) \quad \forall n \in \{1, \ldots, N\}
 \end{equation}
+
 \begin{equation}
     w_d & \sim \mathcal{N}(0, \alpha_d)  \quad \forall d \in \{1, \ldots, D\}\\
 \end{equation}
+
 \begin{equation}
     \alpha_d & \sim \text{Gamma}(1, 0.01) \quad  \forall d \in \{1, \ldots, D\} 
 \end{equation}
