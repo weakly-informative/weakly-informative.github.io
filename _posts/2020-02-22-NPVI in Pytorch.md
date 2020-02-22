@@ -1,4 +1,4 @@
-# Non-parametric VI in the era of automatic differentiation
+## Non-parametric VI in the era of automatic differentiation
 
 In 2012, restrictive distributional assumptions were still a downside of Variational Inference (VI). These restrictions engulfed both variational distributions and model families in which inference was possible. In this adverse scenario, Gershman et. Al. proposed Non-parametric VI (NPVI), an approach for flexible inference on non-conjugate models using mixtures of diagonal Gaussians with identical component weights as variational distributions and using a block optimization scheme to make inference possible.
 
