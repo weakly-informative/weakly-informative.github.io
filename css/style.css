@@ -663,7 +663,7 @@
 		}
 
 			.image.thumb img {
-				border: solid 0.5em rgba(144, 144, 144, 0.25);
+				border: solid 0.1em rgba(144, 144, 144, 0.25);
 				border-radius: 10%;
 			}
 
