@@ -658,6 +658,15 @@
 				border-radius: 100%;
 			}
 
+		.image.thumb {
+			border-radius: 20%;
+		}
+
+			.image.thumb img {
+				border: solid 0.5em rgba(144, 144, 144, 0.25);
+				border-radius: 100%;
+			}
+
 		.image.captioned .figure {
 			border-radius: 0;
 			margin-bottom: 1.5em;
