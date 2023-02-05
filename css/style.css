@@ -1292,7 +1292,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/bg.jpg");
+			background-color: rgb(0,0,0);
 			background-position: center center;
 			background-size: cover;
 		}
